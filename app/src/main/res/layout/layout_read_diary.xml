@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#665FB9F4"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@id/inputJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JUDUL"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/inputDiary"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/rectangle"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="top"
+        android:hint="Your Notes"
+        android:padding="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/text_message"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#A3A1A1"/>
+
+    </LinearLayout>
+</LinearLayout>
